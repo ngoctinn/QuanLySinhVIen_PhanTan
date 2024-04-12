@@ -94,7 +94,7 @@ namespace QLNV1
             Program.myReader = Program.ExecSqlDataReader(strLenh);
             if (Program.myReader == null) return;
             Program.myReader.Read(); // Đọc 1 dòng nếu dữ liệu có nhiều dùng thì dùng for lặp nếu null thì break
-            
+            Program.mGroup = Program.myReader.GetString(2);
             
             if (isSinhVien == false)
             {
