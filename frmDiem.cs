@@ -261,7 +261,10 @@ namespace QLNV1
         {
             
             loadcbHocKi(cbNienKhoa.Text);
-            cbHocKi.SelectedIndex = 0;
+            if (cbHocKi.Items.Count > 0)
+            {
+                cbHocKi.SelectedIndex = 0;
+            }
         }
     }
 }

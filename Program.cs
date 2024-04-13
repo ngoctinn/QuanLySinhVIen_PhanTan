@@ -41,7 +41,7 @@ namespace QLNV1
                 Program.conn.Close();
             try
             {
-                connstr = $"Data Source = {Program.severname}; Initial Catalog= {Program.database} ; User ID={Program.mlogin}  ;password={Program.password}";
+                connstr = $"Data Source = {Program.severname}; Initial Catalog= {Program.database} ; User ID={Program.mlogin} ;password={Program.password}" ;
                 conn.ConnectionString = connstr;
                 MessageBox.Show(Program.connstr);
                 conn.Open();

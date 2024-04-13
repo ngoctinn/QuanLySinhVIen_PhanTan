@@ -336,12 +336,20 @@ namespace QLNV1
 
         private void txbMaMonHoc_EditValueChanged(object sender, EventArgs e)
         {
-            cbTenMonHoc.SelectedValue = txbMaMonHoc.Text;
+            string value = txbMaMonHoc.Text;
+            if (cbTenMonHoc.Items.Cast<DataRowView>().Any(item => item["MAMH"].ToString() == value))
+            {
+                cbTenMonHoc.SelectedValue = value;
+            }
         }
 
         private void txbMaGiangVien_EditValueChanged(object sender, EventArgs e)
         {
-            cbTenGiangVien.SelectedValue = txbMaGiangVien.Text;
+            string value = txbMaGiangVien.Text;
+            if (cbTenGiangVien.Items.Cast<DataRowView>().Any(item => item["MAGV"].ToString() == value))
+            {
+                cbTenGiangVien.SelectedValue = value;
+            }
         }
 
         private void cbTenGiangVien_SelectedIndexChanged(object sender, EventArgs e)

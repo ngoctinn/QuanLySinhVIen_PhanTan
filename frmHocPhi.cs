@@ -33,6 +33,11 @@ namespace QLNV1
         {
             string cmd1 = "EXEC [dbo].[SP_GetInfoSV_HP] '" + txbMaSV.Text + "'";
             SqlDataReader reader = Program.ExecSqlDataReader(cmd1);
+            if (reader == null)
+            {
+                // Handle the error, for example, log it or show a message to the user.
+                return;
+            }
             if (reader.HasRows == false)
             {
                 MessageBox.Show("Mã sinh viên không tồn tại");
