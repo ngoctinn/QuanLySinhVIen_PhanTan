@@ -308,14 +308,14 @@ namespace QLNV1
             GridView view = sender as GridView;
             if (e.RowHandle == view.FocusedRowHandle)
             {
-                e.Appearance.BackColor = Color.LawnGreen;
+                e.Appearance.BackColor = Color.LightGray;
             }
         }
 
         private void gridView1_CustomDrawRowIndicator(object sender, RowIndicatorCustomDrawEventArgs e)
         {
             e.Handled = true;
-            SolidBrush brush = new SolidBrush(Color.FromArgb(0xC6, 0x64, 0xFF));
+            SolidBrush brush = new SolidBrush(Color.White);
             e.Graphics.FillRectangle(brush, e.Bounds);
             e.Graphics.DrawRectangle(Pens.Black, new Rectangle(e.Bounds.X, e.Bounds.Y, e.Bounds.Width - 1, e.Bounds.Height));
             Size size = ImageCollection.GetImageListSize(e.Info.ImageCollection);

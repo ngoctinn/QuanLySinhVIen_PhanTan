@@ -62,8 +62,6 @@ namespace QLNV1
             this.colSOTIET_LT = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colSOTIET_TH = new DevExpress.XtraGrid.Columns.GridColumn();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.speSoTietTH = new DevExpress.XtraEditors.SpinEdit();
             this.speSoTietLT = new DevExpress.XtraEditors.SpinEdit();
             this.txbTenMonHoc = new DevExpress.XtraEditors.TextEdit();
@@ -81,7 +79,6 @@ namespace QLNV1
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.speSoTietTH.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.speSoTietLT.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txbTenMonHoc.Properties)).BeginInit();
@@ -92,36 +89,44 @@ namespace QLNV1
             // mAMHLabel
             // 
             mAMHLabel.AutoSize = true;
-            mAMHLabel.Location = new System.Drawing.Point(283, 80);
+            mAMHLabel.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            mAMHLabel.Location = new System.Drawing.Point(30, 23);
+            mAMHLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             mAMHLabel.Name = "mAMHLabel";
-            mAMHLabel.Size = new System.Drawing.Size(84, 17);
+            mAMHLabel.Size = new System.Drawing.Size(118, 24);
             mAMHLabel.TabIndex = 0;
             mAMHLabel.Text = "Mã môn học";
             // 
             // tENMHLabel
             // 
             tENMHLabel.AutoSize = true;
-            tENMHLabel.Location = new System.Drawing.Point(283, 118);
+            tENMHLabel.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            tENMHLabel.Location = new System.Drawing.Point(493, 23);
+            tENMHLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             tENMHLabel.Name = "tENMHLabel";
-            tENMHLabel.Size = new System.Drawing.Size(90, 17);
+            tENMHLabel.Size = new System.Drawing.Size(126, 24);
             tENMHLabel.TabIndex = 2;
             tENMHLabel.Text = "Tên môn học";
             // 
             // sOTIET_LTLabel
             // 
             sOTIET_LTLabel.AutoSize = true;
-            sOTIET_LTLabel.Location = new System.Drawing.Point(283, 156);
+            sOTIET_LTLabel.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            sOTIET_LTLabel.Location = new System.Drawing.Point(979, 22);
+            sOTIET_LTLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             sOTIET_LTLabel.Name = "sOTIET_LTLabel";
-            sOTIET_LTLabel.Size = new System.Drawing.Size(66, 17);
+            sOTIET_LTLabel.Size = new System.Drawing.Size(96, 24);
             sOTIET_LTLabel.TabIndex = 4;
             sOTIET_LTLabel.Text = "Số tiết LT";
             // 
             // sOTIET_THLabel
             // 
             sOTIET_THLabel.AutoSize = true;
-            sOTIET_THLabel.Location = new System.Drawing.Point(283, 200);
+            sOTIET_THLabel.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            sOTIET_THLabel.Location = new System.Drawing.Point(1444, 22);
+            sOTIET_THLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             sOTIET_THLabel.Name = "sOTIET_THLabel";
-            sOTIET_THLabel.Size = new System.Drawing.Size(68, 17);
+            sOTIET_THLabel.Size = new System.Drawing.Size(100, 24);
             sOTIET_THLabel.TabIndex = 6;
             sOTIET_THLabel.Text = "Số tiết TH";
             // 
@@ -259,31 +264,35 @@ namespace QLNV1
             this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
             this.barDockControlTop.Manager = this.barManager1;
-            this.barDockControlTop.Size = new System.Drawing.Size(1263, 51);
+            this.barDockControlTop.Margin = new System.Windows.Forms.Padding(4);
+            this.barDockControlTop.Size = new System.Drawing.Size(1998, 55);
             // 
             // barDockControlBottom
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 678);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 1181);
             this.barDockControlBottom.Manager = this.barManager1;
-            this.barDockControlBottom.Size = new System.Drawing.Size(1263, 20);
+            this.barDockControlBottom.Margin = new System.Windows.Forms.Padding(4);
+            this.barDockControlBottom.Size = new System.Drawing.Size(1998, 20);
             // 
             // barDockControlLeft
             // 
             this.barDockControlLeft.CausesValidation = false;
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
-            this.barDockControlLeft.Location = new System.Drawing.Point(0, 51);
+            this.barDockControlLeft.Location = new System.Drawing.Point(0, 55);
             this.barDockControlLeft.Manager = this.barManager1;
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 627);
+            this.barDockControlLeft.Margin = new System.Windows.Forms.Padding(4);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 1126);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(1263, 51);
+            this.barDockControlRight.Location = new System.Drawing.Point(1998, 55);
             this.barDockControlRight.Manager = this.barManager1;
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 627);
+            this.barDockControlRight.Margin = new System.Windows.Forms.Padding(4);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 1126);
             // 
             // DS
             // 
@@ -302,10 +311,8 @@ namespace QLNV1
             // tableAdapterManager
             // 
             this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
-          
             this.tableAdapterManager.DANGKYTableAdapter = null;
             this.tableAdapterManager.GIANGVIENTableAdapter = null;
-          
             this.tableAdapterManager.LOPTableAdapter = null;
             this.tableAdapterManager.LOPTINCHITableAdapter = null;
             this.tableAdapterManager.MONHOCTableAdapter = this.MONHOCTableAdapter;
@@ -315,81 +322,127 @@ namespace QLNV1
             // MONHOCGridControl
             // 
             this.MONHOCGridControl.DataSource = this.bdsMonHoc;
-            this.MONHOCGridControl.Dock = System.Windows.Forms.DockStyle.Top;
-            this.MONHOCGridControl.Location = new System.Drawing.Point(0, 51);
+            this.MONHOCGridControl.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.MONHOCGridControl.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(4);
+            this.MONHOCGridControl.Location = new System.Drawing.Point(0, 131);
             this.MONHOCGridControl.MainView = this.gridView1;
+            this.MONHOCGridControl.Margin = new System.Windows.Forms.Padding(4);
             this.MONHOCGridControl.MenuManager = this.barManager1;
             this.MONHOCGridControl.Name = "MONHOCGridControl";
-            this.MONHOCGridControl.Size = new System.Drawing.Size(1263, 352);
+            this.MONHOCGridControl.Size = new System.Drawing.Size(1998, 1050);
             this.MONHOCGridControl.TabIndex = 5;
             this.MONHOCGridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
             // 
             // gridView1
             // 
+            this.gridView1.ColumnPanelRowHeight = 50;
             this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.colMAMH,
             this.colTENMH,
             this.colSOTIET_LT,
             this.colSOTIET_TH});
+            this.gridView1.DetailHeight = 416;
             this.gridView1.GridControl = this.MONHOCGridControl;
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsBehavior.ReadOnly = true;
+            this.gridView1.OptionsEditForm.PopupEditFormWidth = 1029;
+            this.gridView1.OptionsSelection.EnableAppearanceFocusedCell = false;
+            this.gridView1.OptionsView.ShowGroupPanel = false;
+            this.gridView1.RowHeight = 40;
             this.gridView1.CustomDrawRowIndicator += new DevExpress.XtraGrid.Views.Grid.RowIndicatorCustomDrawEventHandler(this.gridView1_CustomDrawRowIndicator);
             this.gridView1.RowCellStyle += new DevExpress.XtraGrid.Views.Grid.RowCellStyleEventHandler(this.gridView1_RowCellStyle);
             // 
             // colMAMH
             // 
-            this.colMAMH.AppearanceHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.colMAMH.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.colMAMH.AppearanceCell.Options.UseFont = true;
+            this.colMAMH.AppearanceCell.Options.UseTextOptions = true;
+            this.colMAMH.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.colMAMH.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.colMAMH.AppearanceHeader.BackColor = System.Drawing.Color.SteelBlue;
+            this.colMAMH.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F);
             this.colMAMH.AppearanceHeader.Options.UseBackColor = true;
+            this.colMAMH.AppearanceHeader.Options.UseFont = true;
+            this.colMAMH.AppearanceHeader.Options.UseTextOptions = true;
+            this.colMAMH.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.colMAMH.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
             this.colMAMH.Caption = "Mã môn học";
             this.colMAMH.FieldName = "MAMH";
-            this.colMAMH.MinWidth = 25;
+            this.colMAMH.MinWidth = 32;
             this.colMAMH.Name = "colMAMH";
             this.colMAMH.Visible = true;
             this.colMAMH.VisibleIndex = 0;
-            this.colMAMH.Width = 94;
+            this.colMAMH.Width = 121;
             // 
             // colTENMH
             // 
-            this.colTENMH.AppearanceHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.colTENMH.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.colTENMH.AppearanceCell.Options.UseFont = true;
+            this.colTENMH.AppearanceCell.Options.UseTextOptions = true;
+            this.colTENMH.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.colTENMH.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.colTENMH.AppearanceHeader.BackColor = System.Drawing.Color.SteelBlue;
+            this.colTENMH.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F);
             this.colTENMH.AppearanceHeader.Options.UseBackColor = true;
+            this.colTENMH.AppearanceHeader.Options.UseFont = true;
+            this.colTENMH.AppearanceHeader.Options.UseTextOptions = true;
+            this.colTENMH.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.colTENMH.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
             this.colTENMH.Caption = "Tên môn học";
             this.colTENMH.FieldName = "TENMH";
-            this.colTENMH.MinWidth = 25;
+            this.colTENMH.MinWidth = 32;
             this.colTENMH.Name = "colTENMH";
             this.colTENMH.Visible = true;
             this.colTENMH.VisibleIndex = 1;
-            this.colTENMH.Width = 94;
+            this.colTENMH.Width = 121;
             // 
             // colSOTIET_LT
             // 
-            this.colSOTIET_LT.AppearanceHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.colSOTIET_LT.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.colSOTIET_LT.AppearanceCell.Options.UseFont = true;
+            this.colSOTIET_LT.AppearanceCell.Options.UseTextOptions = true;
+            this.colSOTIET_LT.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.colSOTIET_LT.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.colSOTIET_LT.AppearanceHeader.BackColor = System.Drawing.Color.SteelBlue;
+            this.colSOTIET_LT.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F);
             this.colSOTIET_LT.AppearanceHeader.Options.UseBackColor = true;
+            this.colSOTIET_LT.AppearanceHeader.Options.UseFont = true;
+            this.colSOTIET_LT.AppearanceHeader.Options.UseTextOptions = true;
+            this.colSOTIET_LT.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.colSOTIET_LT.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
             this.colSOTIET_LT.Caption = "Số tiết lý thuyết";
             this.colSOTIET_LT.FieldName = "SOTIET_LT";
-            this.colSOTIET_LT.MinWidth = 25;
+            this.colSOTIET_LT.MinWidth = 32;
             this.colSOTIET_LT.Name = "colSOTIET_LT";
             this.colSOTIET_LT.Visible = true;
             this.colSOTIET_LT.VisibleIndex = 2;
-            this.colSOTIET_LT.Width = 94;
+            this.colSOTIET_LT.Width = 121;
             // 
             // colSOTIET_TH
             // 
-            this.colSOTIET_TH.AppearanceHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.colSOTIET_TH.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.colSOTIET_TH.AppearanceCell.Options.UseFont = true;
+            this.colSOTIET_TH.AppearanceCell.Options.UseTextOptions = true;
+            this.colSOTIET_TH.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.colSOTIET_TH.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.colSOTIET_TH.AppearanceHeader.BackColor = System.Drawing.Color.SteelBlue;
+            this.colSOTIET_TH.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F);
             this.colSOTIET_TH.AppearanceHeader.Options.UseBackColor = true;
+            this.colSOTIET_TH.AppearanceHeader.Options.UseFont = true;
+            this.colSOTIET_TH.AppearanceHeader.Options.UseTextOptions = true;
+            this.colSOTIET_TH.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.colSOTIET_TH.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
             this.colSOTIET_TH.Caption = "Số tiết thực hành";
             this.colSOTIET_TH.FieldName = "SOTIET_TH";
-            this.colSOTIET_TH.MinWidth = 25;
+            this.colSOTIET_TH.MinWidth = 32;
             this.colSOTIET_TH.Name = "colSOTIET_TH";
             this.colSOTIET_TH.Visible = true;
             this.colSOTIET_TH.VisibleIndex = 3;
-            this.colSOTIET_TH.Width = 94;
+            this.colSOTIET_TH.Width = 121;
             // 
             // panelControl1
             // 
-            this.panelControl1.Controls.Add(this.label1);
-            this.panelControl1.Controls.Add(this.pictureBox1);
             this.panelControl1.Controls.Add(sOTIET_THLabel);
             this.panelControl1.Controls.Add(this.speSoTietTH);
             this.panelControl1.Controls.Add(sOTIET_LTLabel);
@@ -399,30 +452,11 @@ namespace QLNV1
             this.panelControl1.Controls.Add(mAMHLabel);
             this.panelControl1.Controls.Add(this.txbMaMonHoc);
             this.panelControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelControl1.Location = new System.Drawing.Point(0, 403);
+            this.panelControl1.Location = new System.Drawing.Point(0, 55);
+            this.panelControl1.Margin = new System.Windows.Forms.Padding(4);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(1263, 275);
+            this.panelControl1.Size = new System.Drawing.Size(1998, 76);
             this.panelControl1.TabIndex = 6;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Lato", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(114, 33);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(225, 18);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "Nhập thông tin chi tiết môn học";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(115, 80);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(151, 140);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
             // 
             // speSoTietTH
             // 
@@ -432,12 +466,15 @@ namespace QLNV1
             0,
             0,
             0});
-            this.speSoTietTH.Location = new System.Drawing.Point(404, 196);
+            this.speSoTietTH.Location = new System.Drawing.Point(1552, 19);
+            this.speSoTietTH.Margin = new System.Windows.Forms.Padding(4);
             this.speSoTietTH.MenuManager = this.barManager1;
             this.speSoTietTH.Name = "speSoTietTH";
+            this.speSoTietTH.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.speSoTietTH.Properties.Appearance.Options.UseFont = true;
             this.speSoTietTH.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.speSoTietTH.Size = new System.Drawing.Size(256, 24);
+            this.speSoTietTH.Size = new System.Drawing.Size(329, 30);
             this.speSoTietTH.TabIndex = 7;
             // 
             // speSoTietLT
@@ -448,30 +485,39 @@ namespace QLNV1
             0,
             0,
             0});
-            this.speSoTietLT.Location = new System.Drawing.Point(404, 149);
+            this.speSoTietLT.Location = new System.Drawing.Point(1083, 20);
+            this.speSoTietLT.Margin = new System.Windows.Forms.Padding(4);
             this.speSoTietLT.MenuManager = this.barManager1;
             this.speSoTietLT.Name = "speSoTietLT";
+            this.speSoTietLT.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.speSoTietLT.Properties.Appearance.Options.UseFont = true;
             this.speSoTietLT.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.speSoTietLT.Size = new System.Drawing.Size(256, 24);
+            this.speSoTietLT.Size = new System.Drawing.Size(329, 30);
             this.speSoTietLT.TabIndex = 5;
             // 
             // txbTenMonHoc
             // 
             this.txbTenMonHoc.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.bdsMonHoc, "TENMH", true));
-            this.txbTenMonHoc.Location = new System.Drawing.Point(404, 113);
+            this.txbTenMonHoc.Location = new System.Drawing.Point(627, 20);
+            this.txbTenMonHoc.Margin = new System.Windows.Forms.Padding(4);
             this.txbTenMonHoc.MenuManager = this.barManager1;
             this.txbTenMonHoc.Name = "txbTenMonHoc";
-            this.txbTenMonHoc.Size = new System.Drawing.Size(256, 22);
+            this.txbTenMonHoc.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbTenMonHoc.Properties.Appearance.Options.UseFont = true;
+            this.txbTenMonHoc.Size = new System.Drawing.Size(329, 30);
             this.txbTenMonHoc.TabIndex = 3;
             // 
             // txbMaMonHoc
             // 
             this.txbMaMonHoc.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.bdsMonHoc, "MAMH", true));
-            this.txbMaMonHoc.Location = new System.Drawing.Point(404, 77);
+            this.txbMaMonHoc.Location = new System.Drawing.Point(156, 20);
+            this.txbMaMonHoc.Margin = new System.Windows.Forms.Padding(4);
             this.txbMaMonHoc.MenuManager = this.barManager1;
             this.txbMaMonHoc.Name = "txbMaMonHoc";
-            this.txbMaMonHoc.Size = new System.Drawing.Size(256, 22);
+            this.txbMaMonHoc.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbMaMonHoc.Properties.Appearance.Options.UseFont = true;
+            this.txbMaMonHoc.Size = new System.Drawing.Size(329, 30);
             this.txbMaMonHoc.TabIndex = 1;
             // 
             // bdsLopTinChi
@@ -485,15 +531,16 @@ namespace QLNV1
             // 
             // frmMonHoc
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1263, 698);
+            this.ClientSize = new System.Drawing.Size(1998, 1201);
             this.Controls.Add(this.panelControl1);
             this.Controls.Add(this.MONHOCGridControl);
             this.Controls.Add(this.barDockControlLeft);
             this.Controls.Add(this.barDockControlRight);
             this.Controls.Add(this.barDockControlBottom);
             this.Controls.Add(this.barDockControlTop);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmMonHoc";
             this.Text = "Môn học";
             this.Load += new System.EventHandler(this.frmMonHoc_Load);
@@ -505,7 +552,6 @@ namespace QLNV1
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.speSoTietTH.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.speSoTietLT.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txbTenMonHoc.Properties)).EndInit();
@@ -549,8 +595,6 @@ namespace QLNV1
         private DevExpress.XtraEditors.SpinEdit speSoTietLT;
         private DevExpress.XtraEditors.TextEdit txbTenMonHoc;
         private DevExpress.XtraEditors.TextEdit txbMaMonHoc;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.BindingSource bdsLopTinChi;
         private DSTableAdapters.LOPTINCHITableAdapter lOPTINCHITableAdapter;
     }
