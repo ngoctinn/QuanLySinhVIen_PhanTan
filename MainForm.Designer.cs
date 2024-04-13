@@ -53,6 +53,7 @@ namespace QLNV1
             this.barButtonItem6 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem7 = new DevExpress.XtraBars.BarButtonItem();
             this.btnLogout = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem8 = new DevExpress.XtraBars.BarButtonItem();
             this.rpQuanTri = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.rpBaoCao = new DevExpress.XtraBars.Ribbon.RibbonPage();
@@ -65,7 +66,6 @@ namespace QLNV1
             this.HOTEN = new System.Windows.Forms.ToolStripStatusLabel();
             this.NHOM = new System.Windows.Forms.ToolStripStatusLabel();
             this.btnTaoTaiKhoan = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem8 = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).BeginInit();
             this.statusStrip1.SuspendLayout();
@@ -73,10 +73,10 @@ namespace QLNV1
             // 
             // ribbonControl1
             // 
+            this.ribbonControl1.EmptyAreaImageOptions.ImagePadding = new System.Windows.Forms.Padding(39, 36, 39, 36);
             this.ribbonControl1.ExpandCollapseItem.Id = 0;
             this.ribbonControl1.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
             this.ribbonControl1.ExpandCollapseItem,
-            this.ribbonControl1.SearchEditItem,
             this.NhanVienbarButton,
             this.btnDangNhap,
             this.btnDangXuat,
@@ -100,15 +100,15 @@ namespace QLNV1
             this.btnLogout,
             this.barButtonItem8});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ribbonControl1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ribbonControl1.MaxItemId = 24;
             this.ribbonControl1.Name = "ribbonControl1";
-            this.ribbonControl1.OptionsMenuMinWidth = 385;
+            this.ribbonControl1.OptionsMenuMinWidth = 495;
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.rpQuanTri,
             this.rpBaoCao,
             this.rpCauHinh});
-            this.ribbonControl1.Size = new System.Drawing.Size(1232, 209);
+            this.ribbonControl1.Size = new System.Drawing.Size(1584, 244);
             this.ribbonControl1.Click += new System.EventHandler(this.ribbonControl1_Click);
             // 
             // NhanVienbarButton
@@ -140,8 +140,7 @@ namespace QLNV1
             // 
             this.btnSinhVien.Caption = "SINH VIÊN";
             this.btnSinhVien.Id = 5;
-            this.btnSinhVien.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnSinhVien.ImageOptions.Image")));
-            this.btnSinhVien.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnSinhVien.ImageOptions.LargeImage")));
+            this.btnSinhVien.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnSinhVien.ImageOptions.SvgImage")));
             this.btnSinhVien.Name = "btnSinhVien";
             this.btnSinhVien.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnNhanVien_ItemClick);
             // 
@@ -157,9 +156,9 @@ namespace QLNV1
             // 
             // LopHocbarButton
             // 
-            this.LopHocbarButton.Caption = "LỚP HỌC";
+            this.LopHocbarButton.Caption = "BỘ MÔN";
             this.LopHocbarButton.Id = 7;
-            this.LopHocbarButton.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("LopHocbarButton.ImageOptions.Image")));
+            this.LopHocbarButton.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("LopHocbarButton.ImageOptions.SvgImage")));
             this.LopHocbarButton.Name = "LopHocbarButton";
             this.LopHocbarButton.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             this.LopHocbarButton.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.LopHocbarButton_ItemClick);
@@ -168,8 +167,7 @@ namespace QLNV1
             // 
             this.MonHocButtonItem.Caption = "MÔN HỌC";
             this.MonHocButtonItem.Id = 8;
-            this.MonHocButtonItem.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("MonHocButtonItem.ImageOptions.Image")));
-            this.MonHocButtonItem.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("MonHocButtonItem.ImageOptions.LargeImage")));
+            this.MonHocButtonItem.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("MonHocButtonItem.ImageOptions.SvgImage")));
             this.MonHocButtonItem.Name = "MonHocButtonItem";
             this.MonHocButtonItem.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.MonHocButtonItem_ItemClick);
             // 
@@ -207,9 +205,9 @@ namespace QLNV1
             // 
             // LopTinChibarButton
             // 
-            this.LopTinChibarButton.Caption = "LỚP TC";
+            this.LopTinChibarButton.Caption = "HỌC PHẦN";
             this.LopTinChibarButton.Id = 13;
-            this.LopTinChibarButton.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("LopTinChibarButton.ImageOptions.Image")));
+            this.LopTinChibarButton.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("LopTinChibarButton.ImageOptions.SvgImage")));
             this.LopTinChibarButton.Name = "LopTinChibarButton";
             this.LopTinChibarButton.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             this.LopTinChibarButton.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.LopTinChibarButton_ItemClick);
@@ -295,6 +293,15 @@ namespace QLNV1
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnLogout_ItemClick);
             // 
+            // barButtonItem8
+            // 
+            this.barButtonItem8.Caption = "In Bảng điểm TK";
+            this.barButtonItem8.Id = 23;
+            this.barButtonItem8.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem8.ImageOptions.Image")));
+            this.barButtonItem8.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem8.ImageOptions.LargeImage")));
+            this.barButtonItem8.Name = "barButtonItem8";
+            this.barButtonItem8.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem8_ItemClick);
+            // 
             // rpQuanTri
             // 
             this.rpQuanTri.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
@@ -363,28 +370,29 @@ namespace QLNV1
             this.MANV,
             this.HOTEN,
             this.NHOM});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 604);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 716);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(1232, 26);
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 18, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(1584, 32);
             this.statusStrip1.TabIndex = 2;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // MANV
             // 
             this.MANV.Name = "MANV";
-            this.MANV.Size = new System.Drawing.Size(52, 20);
+            this.MANV.Size = new System.Drawing.Size(64, 25);
             this.MANV.Text = "MANV";
             // 
             // HOTEN
             // 
             this.HOTEN.Name = "HOTEN";
-            this.HOTEN.Size = new System.Drawing.Size(57, 20);
+            this.HOTEN.Size = new System.Drawing.Size(69, 25);
             this.HOTEN.Text = "HOTEN";
             // 
             // NHOM
             // 
             this.NHOM.Name = "NHOM";
-            this.NHOM.Size = new System.Drawing.Size(55, 20);
+            this.NHOM.Size = new System.Drawing.Size(68, 25);
             this.NHOM.Text = "NHOM";
             // 
             // btnTaoTaiKhoan
@@ -396,24 +404,15 @@ namespace QLNV1
             this.btnTaoTaiKhoan.Name = "btnTaoTaiKhoan";
             this.btnTaoTaiKhoan.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText;
             // 
-            // barButtonItem8
-            // 
-            this.barButtonItem8.Caption = "In Bảng điểm TK";
-            this.barButtonItem8.Id = 23;
-            this.barButtonItem8.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem8.ImageOptions.Image")));
-            this.barButtonItem8.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem8.ImageOptions.LargeImage")));
-            this.barButtonItem8.Name = "barButtonItem8";
-            this.barButtonItem8.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem8_ItemClick);
-            // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1232, 630);
+            this.ClientSize = new System.Drawing.Size(1584, 748);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.ribbonControl1);
             this.IsMdiContainer = true;
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "MainForm";
             this.Ribbon = this.ribbonControl1;
             this.Text = "Quản Lý";

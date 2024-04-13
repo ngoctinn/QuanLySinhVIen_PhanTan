@@ -29,7 +29,6 @@ namespace QLNV1
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDangNhap));
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.txbTaiKhoan = new DevExpress.XtraEditors.TextEdit();
@@ -45,83 +44,123 @@ namespace QLNV1
             // 
             // labelControl1
             // 
-            this.labelControl1.Location = new System.Drawing.Point(72, 63);
+            this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl1.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.labelControl1.Appearance.Options.UseFont = true;
+            this.labelControl1.Appearance.Options.UseForeColor = true;
+            this.labelControl1.Location = new System.Drawing.Point(121, 123);
+            this.labelControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(58, 16);
+            this.labelControl1.Size = new System.Drawing.Size(108, 29);
             this.labelControl1.TabIndex = 1;
             this.labelControl1.Text = "Chi Nhánh";
             // 
             // labelControl2
             // 
-            this.labelControl2.Location = new System.Drawing.Point(72, 103);
+            this.labelControl2.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl2.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.labelControl2.Appearance.Options.UseFont = true;
+            this.labelControl2.Appearance.Options.UseForeColor = true;
+            this.labelControl2.Location = new System.Drawing.Point(121, 194);
+            this.labelControl2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(59, 17);
+            this.labelControl2.Size = new System.Drawing.Size(104, 29);
             this.labelControl2.TabIndex = 1;
             this.labelControl2.Text = "Tài khoản";
             // 
             // txbTaiKhoan
             // 
-            this.txbTaiKhoan.EditValue = "ptl";
-            this.txbTaiKhoan.Location = new System.Drawing.Point(173, 100);
+            this.txbTaiKhoan.EditValue = "N15DCCN001";
+            this.txbTaiKhoan.Location = new System.Drawing.Point(249, 191);
+            this.txbTaiKhoan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txbTaiKhoan.Name = "txbTaiKhoan";
-            this.txbTaiKhoan.Size = new System.Drawing.Size(284, 22);
+            this.txbTaiKhoan.Properties.Appearance.BackColor = System.Drawing.Color.Gainsboro;
+            this.txbTaiKhoan.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbTaiKhoan.Properties.Appearance.Options.UseBackColor = true;
+            this.txbTaiKhoan.Properties.Appearance.Options.UseFont = true;
+            this.txbTaiKhoan.Size = new System.Drawing.Size(365, 36);
             this.txbTaiKhoan.TabIndex = 2;
             // 
             // labelControl3
             // 
-            this.labelControl3.Location = new System.Drawing.Point(72, 143);
+            this.labelControl3.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl3.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.labelControl3.Appearance.Options.UseFont = true;
+            this.labelControl3.Appearance.Options.UseForeColor = true;
+            this.labelControl3.Location = new System.Drawing.Point(121, 266);
+            this.labelControl3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(56, 17);
+            this.labelControl3.Size = new System.Drawing.Size(99, 29);
             this.labelControl3.TabIndex = 1;
             this.labelControl3.Text = "Mật khẩu";
             // 
             // txbMatKhau
             // 
-            this.txbMatKhau.EditValue = "123456";
-            this.txbMatKhau.Location = new System.Drawing.Point(173, 140);
+            this.txbMatKhau.EditValue = "test";
+            this.txbMatKhau.Location = new System.Drawing.Point(248, 263);
+            this.txbMatKhau.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txbMatKhau.Name = "txbMatKhau";
+            this.txbMatKhau.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.txbMatKhau.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbMatKhau.Properties.Appearance.Options.UseBackColor = true;
+            this.txbMatKhau.Properties.Appearance.Options.UseFont = true;
             this.txbMatKhau.Properties.UseSystemPasswordChar = true;
-            this.txbMatKhau.Size = new System.Drawing.Size(284, 22);
+            this.txbMatKhau.Size = new System.Drawing.Size(365, 36);
             this.txbMatKhau.TabIndex = 3;
             // 
             // btnDangNhap
             // 
+            this.btnDangNhap.Appearance.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.btnDangNhap.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDangNhap.Appearance.Options.UseBackColor = true;
+            this.btnDangNhap.Appearance.Options.UseFont = true;
             this.btnDangNhap.AutoSize = true;
-            this.btnDangNhap.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnDangNhap.ImageOptions.SvgImage")));
-            this.btnDangNhap.Location = new System.Drawing.Point(139, 206);
+            this.btnDangNhap.Location = new System.Drawing.Point(282, 397);
+            this.btnDangNhap.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDangNhap.Name = "btnDangNhap";
-            this.btnDangNhap.Size = new System.Drawing.Size(118, 44);
+            this.btnDangNhap.Size = new System.Drawing.Size(162, 43);
             this.btnDangNhap.TabIndex = 4;
             this.btnDangNhap.Text = "Đăng nhập";
             this.btnDangNhap.Click += new System.EventHandler(this.btnDangNhap_Click);
             // 
             // btnThoat
             // 
+            this.btnThoat.Appearance.BackColor = System.Drawing.Color.IndianRed;
+            this.btnThoat.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThoat.Appearance.Options.UseBackColor = true;
+            this.btnThoat.Appearance.Options.UseFont = true;
             this.btnThoat.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnThoat.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnThoat.ImageOptions.Image")));
-            this.btnThoat.Location = new System.Drawing.Point(300, 206);
+            this.btnThoat.Location = new System.Drawing.Point(452, 397);
+            this.btnThoat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(140, 44);
+            this.btnThoat.Size = new System.Drawing.Size(161, 43);
             this.btnThoat.TabIndex = 5;
-            this.btnThoat.Text = "Thoát";
+            this.btnThoat.Text = "Trở về ";
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // cbChiNhanh
             // 
+            this.cbChiNhanh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.cbChiNhanh.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbChiNhanh.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbChiNhanh.ForeColor = System.Drawing.Color.SteelBlue;
             this.cbChiNhanh.FormattingEnabled = true;
-            this.cbChiNhanh.Location = new System.Drawing.Point(173, 63);
+            this.cbChiNhanh.Location = new System.Drawing.Point(249, 120);
+            this.cbChiNhanh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbChiNhanh.Name = "cbChiNhanh";
-            this.cbChiNhanh.Size = new System.Drawing.Size(284, 24);
+            this.cbChiNhanh.Size = new System.Drawing.Size(364, 37);
             this.cbChiNhanh.TabIndex = 1;
             this.cbChiNhanh.SelectedIndexChanged += new System.EventHandler(this.cbChiNhanh_SelectedIndexChanged);
             // 
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(173, 175);
+            this.checkBox1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.checkBox1.Location = new System.Drawing.Point(248, 344);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(85, 21);
+            this.checkBox1.Size = new System.Drawing.Size(134, 33);
             this.checkBox1.TabIndex = 6;
             this.checkBox1.Text = "Sinh viên";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -130,10 +169,12 @@ namespace QLNV1
             // frmDangNhap
             // 
             this.AcceptButton = this.btnDangNhap;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.Appearance.BackColor = System.Drawing.Color.SteelBlue;
+            this.Appearance.Options.UseBackColor = true;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnThoat;
-            this.ClientSize = new System.Drawing.Size(510, 271);
+            this.ClientSize = new System.Drawing.Size(734, 561);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.cbChiNhanh);
             this.Controls.Add(this.btnThoat);
@@ -143,6 +184,7 @@ namespace QLNV1
             this.Controls.Add(this.txbTaiKhoan);
             this.Controls.Add(this.labelControl2);
             this.Controls.Add(this.labelControl1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmDangNhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Đăng nhập";

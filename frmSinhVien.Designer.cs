@@ -90,6 +90,8 @@ namespace QLNV1
             this.colMALOP1 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.colDANGHIHOC = new DevExpress.XtraGrid.Columns.GridColumn();
             this.bdsDangKi = new System.Windows.Forms.BindingSource(this.components);
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             mASVLabel = new System.Windows.Forms.Label();
             hOLabel = new System.Windows.Forms.Label();
             tENLabel = new System.Windows.Forms.Label();
@@ -454,8 +456,10 @@ namespace QLNV1
             this.gridView1.DetailHeight = 416;
             this.gridView1.GridControl = this.lOPGridControl;
             this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsBehavior.Editable = false;
             this.gridView1.OptionsBehavior.ReadOnly = true;
             this.gridView1.OptionsEditForm.PopupEditFormWidth = 1029;
+            this.gridView1.RowHeight = 40;
             this.gridView1.CustomDrawRowIndicator += new DevExpress.XtraGrid.Views.Grid.RowIndicatorCustomDrawEventHandler(this.gridView1_CustomDrawRowIndicator);
             this.gridView1.RowCellStyle += new DevExpress.XtraGrid.Views.Grid.RowCellStyleEventHandler(this.gridView1_RowCellStyle);
             // 
@@ -473,7 +477,7 @@ namespace QLNV1
             this.colMALOP.AppearanceHeader.Options.UseTextOptions = true;
             this.colMALOP.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.colMALOP.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.colMALOP.Caption = "Mã lớp";
+            this.colMALOP.Caption = "Mã bộ môn";
             this.colMALOP.FieldName = "MALOP";
             this.colMALOP.MinWidth = 32;
             this.colMALOP.Name = "colMALOP";
@@ -496,7 +500,7 @@ namespace QLNV1
             this.colTENLOP.AppearanceHeader.Options.UseTextOptions = true;
             this.colTENLOP.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.colTENLOP.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.colTENLOP.Caption = "Tên lớp";
+            this.colTENLOP.Caption = "Tên bộ môn";
             this.colTENLOP.FieldName = "TENLOP";
             this.colTENLOP.MinWidth = 32;
             this.colTENLOP.Name = "colTENLOP";
@@ -699,8 +703,10 @@ namespace QLNV1
             this.gridView2.DetailHeight = 416;
             this.gridView2.GridControl = this.sINHVIENGridControl;
             this.gridView2.Name = "gridView2";
+            this.gridView2.OptionsBehavior.Editable = false;
             this.gridView2.OptionsBehavior.ReadOnly = true;
             this.gridView2.OptionsEditForm.PopupEditFormWidth = 1029;
+            this.gridView2.RowHeight = 40;
             this.gridView2.CustomDrawRowIndicator += new DevExpress.XtraGrid.Views.Grid.RowIndicatorCustomDrawEventHandler(this.gridView2_CustomDrawRowIndicator);
             this.gridView2.RowCellStyle += new DevExpress.XtraGrid.Views.Grid.RowCellStyleEventHandler(this.gridView2_RowCellStyle);
             // 
@@ -724,6 +730,8 @@ namespace QLNV1
             // 
             // colHO
             // 
+            this.colHO.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.colHO.AppearanceCell.Options.UseFont = true;
             this.colHO.AppearanceHeader.BackColor = System.Drawing.Color.SteelBlue;
             this.colHO.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F);
             this.colHO.AppearanceHeader.Options.UseBackColor = true;
@@ -742,6 +750,8 @@ namespace QLNV1
             // 
             // colTEN
             // 
+            this.colTEN.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.colTEN.AppearanceCell.Options.UseFont = true;
             this.colTEN.AppearanceHeader.BackColor = System.Drawing.Color.SteelBlue;
             this.colTEN.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F);
             this.colTEN.AppearanceHeader.Options.UseBackColor = true;
@@ -760,6 +770,8 @@ namespace QLNV1
             // 
             // colPHAI
             // 
+            this.colPHAI.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 810F);
+            this.colPHAI.AppearanceCell.Options.UseFont = true;
             this.colPHAI.AppearanceHeader.BackColor = System.Drawing.Color.SteelBlue;
             this.colPHAI.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F);
             this.colPHAI.AppearanceHeader.Options.UseBackColor = true;
@@ -778,6 +790,8 @@ namespace QLNV1
             // 
             // colDIACHI
             // 
+            this.colDIACHI.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.colDIACHI.AppearanceCell.Options.UseFont = true;
             this.colDIACHI.AppearanceHeader.BackColor = System.Drawing.Color.SteelBlue;
             this.colDIACHI.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F);
             this.colDIACHI.AppearanceHeader.Options.UseBackColor = true;
@@ -796,6 +810,8 @@ namespace QLNV1
             // 
             // colNGAYSINH
             // 
+            this.colNGAYSINH.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.colNGAYSINH.AppearanceCell.Options.UseFont = true;
             this.colNGAYSINH.AppearanceHeader.BackColor = System.Drawing.Color.SteelBlue;
             this.colNGAYSINH.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F);
             this.colNGAYSINH.AppearanceHeader.Options.UseBackColor = true;
@@ -814,6 +830,8 @@ namespace QLNV1
             // 
             // colMALOP1
             // 
+            this.colMALOP1.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.colMALOP1.AppearanceCell.Options.UseFont = true;
             this.colMALOP1.AppearanceHeader.BackColor = System.Drawing.Color.SteelBlue;
             this.colMALOP1.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F);
             this.colMALOP1.AppearanceHeader.Options.UseBackColor = true;
@@ -832,6 +850,8 @@ namespace QLNV1
             // 
             // colDANGHIHOC
             // 
+            this.colDANGHIHOC.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.colDANGHIHOC.AppearanceCell.Options.UseFont = true;
             this.colDANGHIHOC.AppearanceHeader.BackColor = System.Drawing.Color.SteelBlue;
             this.colDANGHIHOC.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F);
             this.colDANGHIHOC.AppearanceHeader.Options.UseBackColor = true;
@@ -853,11 +873,37 @@ namespace QLNV1
             this.bdsDangKi.DataMember = "FK_CTLTC_SINHVIEN";
             this.bdsDangKi.DataSource = this.bdsSinhVien;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label2.Location = new System.Drawing.Point(667, 591);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(465, 34);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Danh sách sinh viên của bộ môn";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label3.Location = new System.Drawing.Point(33, 113);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(329, 34);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "Danh sách các bộ môn";
+            // 
             // frmSinhVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1624, 1086);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.sINHVIENGridControl);
             this.Controls.Add(this.panelControl2);
             this.Controls.Add(this.lOPGridControl);
@@ -953,5 +999,7 @@ namespace QLNV1
         private DevExpress.XtraEditors.TextEdit txbMaSV;
         private DSTableAdapters.DANGKYTableAdapter DANGKYTableAdapter;
         private System.Windows.Forms.BindingSource bdsDangKi;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
     }
 }
