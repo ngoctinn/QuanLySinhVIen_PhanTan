@@ -148,8 +148,7 @@ namespace QLNV1
             // 
             this.btnLapPhieuNX.Caption = "In DSSV  ĐKLTC";
             this.btnLapPhieuNX.Id = 6;
-            this.btnLapPhieuNX.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnLapPhieuNX.ImageOptions.Image")));
-            this.btnLapPhieuNX.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnLapPhieuNX.ImageOptions.LargeImage")));
+            this.btnLapPhieuNX.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnLapPhieuNX.ImageOptions.SvgImage")));
             this.btnLapPhieuNX.Name = "btnLapPhieuNX";
             this.btnLapPhieuNX.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             this.btnLapPhieuNX.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnLapPhieuNX_ItemClick);
@@ -175,8 +174,7 @@ namespace QLNV1
             // 
             this.DiemButtonItem.Caption = "ĐIỂM";
             this.DiemButtonItem.Id = 9;
-            this.DiemButtonItem.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("DiemButtonItem.ImageOptions.Image")));
-            this.DiemButtonItem.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("DiemButtonItem.ImageOptions.LargeImage")));
+            this.DiemButtonItem.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("DiemButtonItem.ImageOptions.SvgImage")));
             this.DiemButtonItem.Name = "DiemButtonItem";
             this.DiemButtonItem.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.DiemButtonItem_ItemClick);
             // 
@@ -192,8 +190,7 @@ namespace QLNV1
             // 
             this.HocPhibarButton.Caption = "HỌC PHÍ";
             this.HocPhibarButton.Id = 11;
-            this.HocPhibarButton.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("HocPhibarButton.ImageOptions.Image")));
-            this.HocPhibarButton.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("HocPhibarButton.ImageOptions.LargeImage")));
+            this.HocPhibarButton.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("HocPhibarButton.ImageOptions.SvgImage")));
             this.HocPhibarButton.Name = "HocPhibarButton";
             this.HocPhibarButton.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.HocPhibarButton_ItemClick);
             // 
@@ -216,8 +213,7 @@ namespace QLNV1
             // 
             this.DangKibarButton.Caption = "ĐĂNG KÍ";
             this.DangKibarButton.Id = 14;
-            this.DangKibarButton.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("DangKibarButton.ImageOptions.Image")));
-            this.DangKibarButton.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("DangKibarButton.ImageOptions.LargeImage")));
+            this.DangKibarButton.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("DangKibarButton.ImageOptions.SvgImage")));
             this.DangKibarButton.Name = "DangKibarButton";
             this.DangKibarButton.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.DangKibarButton_ItemClick);
             // 
@@ -225,8 +221,7 @@ namespace QLNV1
             // 
             this.btnTaoTK.Caption = "Tạo tài khoản";
             this.btnTaoTK.Id = 15;
-            this.btnTaoTK.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnTaoTK.ImageOptions.Image")));
-            this.btnTaoTK.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnTaoTK.ImageOptions.LargeImage")));
+            this.btnTaoTK.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnTaoTK.ImageOptions.SvgImage")));
             this.btnTaoTK.Name = "btnTaoTK";
             this.btnTaoTK.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large;
             this.btnTaoTK.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnTaoTK_ItemClick);
@@ -252,8 +247,7 @@ namespace QLNV1
             // 
             this.barButtonItem4.Caption = "In DSLTC";
             this.barButtonItem4.Id = 18;
-            this.barButtonItem4.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem4.ImageOptions.Image")));
-            this.barButtonItem4.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem4.ImageOptions.LargeImage")));
+            this.barButtonItem4.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem4.ImageOptions.SvgImage")));
             this.barButtonItem4.Name = "barButtonItem4";
             this.barButtonItem4.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem4_ItemClick);
             // 
@@ -261,8 +255,7 @@ namespace QLNV1
             // 
             this.barButtonItem5.Caption = "In BDHM";
             this.barButtonItem5.Id = 19;
-            this.barButtonItem5.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem5.ImageOptions.Image")));
-            this.barButtonItem5.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem5.ImageOptions.LargeImage")));
+            this.barButtonItem5.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem5.ImageOptions.SvgImage")));
             this.barButtonItem5.Name = "barButtonItem5";
             this.barButtonItem5.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem5_ItemClick);
             // 
@@ -270,8 +263,7 @@ namespace QLNV1
             // 
             this.barButtonItem6.Caption = "In Phiếu Điểm SV";
             this.barButtonItem6.Id = 20;
-            this.barButtonItem6.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem6.ImageOptions.Image")));
-            this.barButtonItem6.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem6.ImageOptions.LargeImage")));
+            this.barButtonItem6.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem6.ImageOptions.SvgImage")));
             this.barButtonItem6.Name = "barButtonItem6";
             this.barButtonItem6.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem6_ItemClick);
             // 
@@ -279,8 +271,7 @@ namespace QLNV1
             // 
             this.barButtonItem7.Caption = "In Danh Sách HP của Lớp";
             this.barButtonItem7.Id = 21;
-            this.barButtonItem7.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem7.ImageOptions.Image")));
-            this.barButtonItem7.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem7.ImageOptions.LargeImage")));
+            this.barButtonItem7.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem7.ImageOptions.SvgImage")));
             this.barButtonItem7.Name = "barButtonItem7";
             this.barButtonItem7.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem7_ItemClick);
             // 
@@ -288,8 +279,7 @@ namespace QLNV1
             // 
             this.btnLogout.Caption = "Đăng xuất";
             this.btnLogout.Id = 22;
-            this.btnLogout.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnLogout.ImageOptions.Image")));
-            this.btnLogout.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnLogout.ImageOptions.LargeImage")));
+            this.btnLogout.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnLogout.ImageOptions.SvgImage")));
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnLogout_ItemClick);
             // 
@@ -297,8 +287,7 @@ namespace QLNV1
             // 
             this.barButtonItem8.Caption = "In Bảng điểm TK";
             this.barButtonItem8.Id = 23;
-            this.barButtonItem8.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem8.ImageOptions.Image")));
-            this.barButtonItem8.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem8.ImageOptions.LargeImage")));
+            this.barButtonItem8.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem8.ImageOptions.SvgImage")));
             this.barButtonItem8.Name = "barButtonItem8";
             this.barButtonItem8.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem8_ItemClick);
             // 
@@ -365,34 +354,35 @@ namespace QLNV1
             // 
             // statusStrip1
             // 
+            this.statusStrip1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.MANV,
             this.HOTEN,
             this.NHOM});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 716);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 709);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 18, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(1584, 32);
+            this.statusStrip1.Size = new System.Drawing.Size(1584, 39);
             this.statusStrip1.TabIndex = 2;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // MANV
             // 
             this.MANV.Name = "MANV";
-            this.MANV.Size = new System.Drawing.Size(64, 25);
+            this.MANV.Size = new System.Drawing.Size(84, 32);
             this.MANV.Text = "MANV";
             // 
             // HOTEN
             // 
             this.HOTEN.Name = "HOTEN";
-            this.HOTEN.Size = new System.Drawing.Size(69, 25);
+            this.HOTEN.Size = new System.Drawing.Size(91, 32);
             this.HOTEN.Text = "HOTEN";
             // 
             // NHOM
             // 
             this.NHOM.Name = "NHOM";
-            this.NHOM.Size = new System.Drawing.Size(68, 25);
+            this.NHOM.Size = new System.Drawing.Size(89, 32);
             this.NHOM.Text = "NHOM";
             // 
             // btnTaoTaiKhoan
