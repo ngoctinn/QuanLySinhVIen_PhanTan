@@ -97,7 +97,7 @@ namespace QLNV1
             this.panelControl1.Controls.Add(this.label1);
             this.panelControl1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelControl1.Location = new System.Drawing.Point(0, 0);
-            this.panelControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelControl1.Margin = new System.Windows.Forms.Padding(4);
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(1624, 50);
             this.panelControl1.TabIndex = 5;
@@ -154,7 +154,7 @@ namespace QLNV1
             this.panel1.Controls.Add(this.label5);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 50);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1624, 205);
             this.panel1.TabIndex = 6;
@@ -164,7 +164,7 @@ namespace QLNV1
             this.cbNhom.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbNhom.FormattingEnabled = true;
             this.cbNhom.Location = new System.Drawing.Point(585, 59);
-            this.cbNhom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbNhom.Margin = new System.Windows.Forms.Padding(4);
             this.cbNhom.Name = "cbNhom";
             this.cbNhom.Size = new System.Drawing.Size(248, 32);
             this.cbNhom.TabIndex = 15;
@@ -174,7 +174,7 @@ namespace QLNV1
             this.cbHocKi.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbHocKi.FormattingEnabled = true;
             this.cbHocKi.Location = new System.Drawing.Point(175, 108);
-            this.cbHocKi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbHocKi.Margin = new System.Windows.Forms.Padding(4);
             this.cbHocKi.Name = "cbHocKi";
             this.cbHocKi.Size = new System.Drawing.Size(248, 32);
             this.cbHocKi.TabIndex = 14;
@@ -185,7 +185,7 @@ namespace QLNV1
             this.cbNienKhoa.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbNienKhoa.FormattingEnabled = true;
             this.cbNienKhoa.Location = new System.Drawing.Point(175, 62);
-            this.cbNienKhoa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbNienKhoa.Margin = new System.Windows.Forms.Padding(4);
             this.cbNienKhoa.Name = "cbNienKhoa";
             this.cbNienKhoa.Size = new System.Drawing.Size(248, 32);
             this.cbNienKhoa.TabIndex = 13;
@@ -196,7 +196,7 @@ namespace QLNV1
             this.btnThoat.Appearance.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThoat.Appearance.Options.UseFont = true;
             this.btnThoat.Location = new System.Drawing.Point(712, 153);
-            this.btnThoat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThoat.Margin = new System.Windows.Forms.Padding(4);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(121, 34);
             this.btnThoat.TabIndex = 12;
@@ -208,7 +208,7 @@ namespace QLNV1
             this.btnCapNhat.Appearance.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCapNhat.Appearance.Options.UseFont = true;
             this.btnCapNhat.Location = new System.Drawing.Point(583, 153);
-            this.btnCapNhat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCapNhat.Margin = new System.Windows.Forms.Padding(4);
             this.btnCapNhat.Name = "btnCapNhat";
             this.btnCapNhat.Size = new System.Drawing.Size(121, 34);
             this.btnCapNhat.TabIndex = 11;
@@ -221,7 +221,7 @@ namespace QLNV1
             this.cbMonHoc.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbMonHoc.FormattingEnabled = true;
             this.cbMonHoc.Location = new System.Drawing.Point(585, 100);
-            this.cbMonHoc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbMonHoc.Margin = new System.Windows.Forms.Padding(4);
             this.cbMonHoc.Name = "cbMonHoc";
             this.cbMonHoc.Size = new System.Drawing.Size(248, 32);
             this.cbMonHoc.TabIndex = 10;
@@ -231,7 +231,7 @@ namespace QLNV1
             this.btnBatDau.Appearance.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBatDau.Appearance.Options.UseFont = true;
             this.btnBatDau.Location = new System.Drawing.Point(435, 152);
-            this.btnBatDau.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBatDau.Margin = new System.Windows.Forms.Padding(4);
             this.btnBatDau.Name = "btnBatDau";
             this.btnBatDau.Size = new System.Drawing.Size(140, 36);
             this.btnBatDau.TabIndex = 9;
@@ -244,7 +244,7 @@ namespace QLNV1
             this.cbKhoa.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbKhoa.FormattingEnabled = true;
             this.cbKhoa.Location = new System.Drawing.Point(1139, 18);
-            this.cbKhoa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbKhoa.Margin = new System.Windows.Forms.Padding(4);
             this.cbKhoa.Name = "cbKhoa";
             this.cbKhoa.Size = new System.Drawing.Size(397, 37);
             this.cbKhoa.TabIndex = 5;
@@ -312,10 +312,10 @@ namespace QLNV1
             // DiemGridControl
             // 
             this.DiemGridControl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DiemGridControl.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DiemGridControl.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(4);
             this.DiemGridControl.Location = new System.Drawing.Point(0, 255);
             this.DiemGridControl.MainView = this.gridView1;
-            this.DiemGridControl.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DiemGridControl.Margin = new System.Windows.Forms.Padding(4);
             this.DiemGridControl.Name = "DiemGridControl";
             this.DiemGridControl.Size = new System.Drawing.Size(1624, 574);
             this.DiemGridControl.TabIndex = 7;
@@ -336,7 +336,6 @@ namespace QLNV1
             this.gridView1.DetailHeight = 416;
             this.gridView1.GridControl = this.DiemGridControl;
             this.gridView1.Name = "gridView1";
-            this.gridView1.OptionsBehavior.Editable = false;
             this.gridView1.OptionsEditForm.PopupEditFormWidth = 1029;
             this.gridView1.RowHeight = 40;
             this.gridView1.CustomDrawRowIndicator += new DevExpress.XtraGrid.Views.Grid.RowIndicatorCustomDrawEventHandler(this.gridView1_CustomDrawRowIndicator);
@@ -573,7 +572,7 @@ namespace QLNV1
             this.barDockControl4.Dock = System.Windows.Forms.DockStyle.Right;
             this.barDockControl4.Location = new System.Drawing.Point(1624, 0);
             this.barDockControl4.Manager = null;
-            this.barDockControl4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.barDockControl4.Margin = new System.Windows.Forms.Padding(4);
             this.barDockControl4.Size = new System.Drawing.Size(0, 829);
             // 
             // frmDiem
@@ -585,7 +584,7 @@ namespace QLNV1
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelControl1);
             this.Controls.Add(this.barDockControl4);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmDiem";
             this.Text = "Nhập điểm";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

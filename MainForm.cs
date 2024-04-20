@@ -170,7 +170,7 @@ namespace QLNV1
 
         private void HocPhibarButton_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-
+            
             Form frm = this.CheckExists(typeof(frmHocPhi));
             if (frm != null) frm.Activate();
             else

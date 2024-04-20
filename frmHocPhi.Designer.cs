@@ -202,7 +202,7 @@ namespace QLNV1
             this.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
             this.barDockControlTop.Manager = this.barManager1;
-            this.barDockControlTop.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.barDockControlTop.Margin = new System.Windows.Forms.Padding(4);
             this.barDockControlTop.Size = new System.Drawing.Size(1624, 55);
             // 
             // barDockControlBottom
@@ -211,7 +211,7 @@ namespace QLNV1
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.barDockControlBottom.Location = new System.Drawing.Point(0, 809);
             this.barDockControlBottom.Manager = this.barManager1;
-            this.barDockControlBottom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.barDockControlBottom.Margin = new System.Windows.Forms.Padding(4);
             this.barDockControlBottom.Size = new System.Drawing.Size(1624, 20);
             // 
             // barDockControlLeft
@@ -220,7 +220,7 @@ namespace QLNV1
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
             this.barDockControlLeft.Location = new System.Drawing.Point(0, 55);
             this.barDockControlLeft.Manager = this.barManager1;
-            this.barDockControlLeft.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.barDockControlLeft.Margin = new System.Windows.Forms.Padding(4);
             this.barDockControlLeft.Size = new System.Drawing.Size(0, 754);
             // 
             // barDockControlRight
@@ -229,7 +229,7 @@ namespace QLNV1
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
             this.barDockControlRight.Location = new System.Drawing.Point(1624, 55);
             this.barDockControlRight.Manager = this.barManager1;
-            this.barDockControlRight.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.barDockControlRight.Margin = new System.Windows.Forms.Padding(4);
             this.barDockControlRight.Size = new System.Drawing.Size(0, 754);
             // 
             // btnXoa
@@ -267,7 +267,7 @@ namespace QLNV1
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 55);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1624, 46);
             this.panel1.TabIndex = 4;
@@ -294,7 +294,7 @@ namespace QLNV1
             this.panel2.Controls.Add(this.label2);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 101);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1624, 62);
             this.panel2.TabIndex = 5;
@@ -305,7 +305,7 @@ namespace QLNV1
             this.btnTim.Appearance.Font = new System.Drawing.Font("Tahoma", 10F);
             this.btnTim.Appearance.Options.UseFont = true;
             this.btnTim.Location = new System.Drawing.Point(1138, 20);
-            this.btnTim.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnTim.Margin = new System.Windows.Forms.Padding(4);
             this.btnTim.Name = "btnTim";
             this.btnTim.Size = new System.Drawing.Size(121, 32);
             this.btnTim.TabIndex = 2;
@@ -316,7 +316,7 @@ namespace QLNV1
             // 
             this.txbMaLop.Font = new System.Drawing.Font("Tahoma", 10F);
             this.txbMaLop.Location = new System.Drawing.Point(833, 16);
-            this.txbMaLop.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txbMaLop.Margin = new System.Windows.Forms.Padding(4);
             this.txbMaLop.Name = "txbMaLop";
             this.txbMaLop.ReadOnly = true;
             this.txbMaLop.Size = new System.Drawing.Size(217, 32);
@@ -337,7 +337,7 @@ namespace QLNV1
             // 
             this.txbTenSinhVien.Font = new System.Drawing.Font("Tahoma", 10F);
             this.txbTenSinhVien.Location = new System.Drawing.Point(502, 16);
-            this.txbTenSinhVien.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txbTenSinhVien.Margin = new System.Windows.Forms.Padding(4);
             this.txbTenSinhVien.Name = "txbTenSinhVien";
             this.txbTenSinhVien.ReadOnly = true;
             this.txbTenSinhVien.Size = new System.Drawing.Size(217, 32);
@@ -358,7 +358,7 @@ namespace QLNV1
             // 
             this.txbMaSV.Font = new System.Drawing.Font("Tahoma", 10F);
             this.txbMaSV.Location = new System.Drawing.Point(140, 16);
-            this.txbMaSV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txbMaSV.Margin = new System.Windows.Forms.Padding(4);
             this.txbMaSV.Name = "txbMaSV";
             this.txbMaSV.Size = new System.Drawing.Size(217, 32);
             this.txbMaSV.TabIndex = 1;
@@ -377,10 +377,10 @@ namespace QLNV1
             // HOCPHIGRIDCONTROL
             // 
             this.HOCPHIGRIDCONTROL.Dock = System.Windows.Forms.DockStyle.Top;
-            this.HOCPHIGRIDCONTROL.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.HOCPHIGRIDCONTROL.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(4);
             this.HOCPHIGRIDCONTROL.Location = new System.Drawing.Point(0, 163);
             this.HOCPHIGRIDCONTROL.MainView = this.gridView1;
-            this.HOCPHIGRIDCONTROL.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.HOCPHIGRIDCONTROL.Margin = new System.Windows.Forms.Padding(4);
             this.HOCPHIGRIDCONTROL.MenuManager = this.barManager1;
             this.HOCPHIGRIDCONTROL.Name = "HOCPHIGRIDCONTROL";
             this.HOCPHIGRIDCONTROL.Size = new System.Drawing.Size(1624, 338);
@@ -521,10 +521,10 @@ namespace QLNV1
             // CT_HOCPHIGRIDCONTROL
             // 
             this.CT_HOCPHIGRIDCONTROL.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.CT_HOCPHIGRIDCONTROL.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CT_HOCPHIGRIDCONTROL.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(4);
             this.CT_HOCPHIGRIDCONTROL.Location = new System.Drawing.Point(0, 501);
             this.CT_HOCPHIGRIDCONTROL.MainView = this.gridView2;
-            this.CT_HOCPHIGRIDCONTROL.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CT_HOCPHIGRIDCONTROL.Margin = new System.Windows.Forms.Padding(4);
             this.CT_HOCPHIGRIDCONTROL.MenuManager = this.barManager1;
             this.CT_HOCPHIGRIDCONTROL.Name = "CT_HOCPHIGRIDCONTROL";
             this.CT_HOCPHIGRIDCONTROL.Size = new System.Drawing.Size(1624, 308);
@@ -541,7 +541,6 @@ namespace QLNV1
             this.gridView2.DetailHeight = 416;
             this.gridView2.GridControl = this.CT_HOCPHIGRIDCONTROL;
             this.gridView2.Name = "gridView2";
-            this.gridView2.OptionsBehavior.Editable = false;
             this.gridView2.OptionsEditForm.PopupEditFormWidth = 1029;
             this.gridView2.RowHeight = 40;
             this.gridView2.CustomDrawRowIndicator += new DevExpress.XtraGrid.Views.Grid.RowIndicatorCustomDrawEventHandler(this.gridView2_CustomDrawRowIndicator);
@@ -644,7 +643,7 @@ namespace QLNV1
             this.Controls.Add(this.barDockControlRight);
             this.Controls.Add(this.barDockControlBottom);
             this.Controls.Add(this.barDockControlTop);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmHocPhi";
             this.Text = "Học phí";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

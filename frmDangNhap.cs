@@ -75,7 +75,7 @@ namespace QLNV1
 
             if (isSinhVien == true)
             {
-                Program.mlogin = "sa";
+                Program.mlogin = "SVKN";
                 Program.password = "123";
                 if (Program.KetNoi() == 0) return;
             }
@@ -98,7 +98,10 @@ namespace QLNV1
             
             if (isSinhVien == false)
             {
-                Program.mHoten = Program.myReader.GetString(1);
+                if (!Program.myReader.IsDBNull(1))
+                {
+                    Program.mHoten = Program.myReader.GetString(1);
+                }
                 Program.username = Program.myReader.GetString(0);
             }
             Program.myReader.Close();
