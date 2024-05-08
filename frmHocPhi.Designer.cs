@@ -209,7 +209,7 @@ namespace QLNV1
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 809);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 946);
             this.barDockControlBottom.Manager = this.barManager1;
             this.barDockControlBottom.Margin = new System.Windows.Forms.Padding(4);
             this.barDockControlBottom.Size = new System.Drawing.Size(1624, 20);
@@ -221,7 +221,7 @@ namespace QLNV1
             this.barDockControlLeft.Location = new System.Drawing.Point(0, 55);
             this.barDockControlLeft.Manager = this.barManager1;
             this.barDockControlLeft.Margin = new System.Windows.Forms.Padding(4);
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 754);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 891);
             // 
             // barDockControlRight
             // 
@@ -230,7 +230,7 @@ namespace QLNV1
             this.barDockControlRight.Location = new System.Drawing.Point(1624, 55);
             this.barDockControlRight.Manager = this.barManager1;
             this.barDockControlRight.Margin = new System.Windows.Forms.Padding(4);
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 754);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 891);
             // 
             // btnXoa
             // 
@@ -527,7 +527,7 @@ namespace QLNV1
             this.CT_HOCPHIGRIDCONTROL.Margin = new System.Windows.Forms.Padding(4);
             this.CT_HOCPHIGRIDCONTROL.MenuManager = this.barManager1;
             this.CT_HOCPHIGRIDCONTROL.Name = "CT_HOCPHIGRIDCONTROL";
-            this.CT_HOCPHIGRIDCONTROL.Size = new System.Drawing.Size(1624, 308);
+            this.CT_HOCPHIGRIDCONTROL.Size = new System.Drawing.Size(1624, 445);
             this.CT_HOCPHIGRIDCONTROL.TabIndex = 7;
             this.CT_HOCPHIGRIDCONTROL.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView2});
@@ -633,7 +633,7 @@ namespace QLNV1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1624, 829);
+            this.ClientSize = new System.Drawing.Size(1624, 966);
             this.ContextMenuStrip = this.contextMenuStrip1;
             this.Controls.Add(this.CT_HOCPHIGRIDCONTROL);
             this.Controls.Add(this.HOCPHIGRIDCONTROL);

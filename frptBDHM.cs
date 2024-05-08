@@ -138,9 +138,11 @@ namespace QLNV1
 
         private void cbNienKhoa_SelectedIndexChanged(object sender, EventArgs e)
         {
-          
             loadcbHocKi(cbNienKhoa.Text);
-            cbHocKi.SelectedIndex = 0;
+            if (cbHocKi.Items.Count > 0)
+            {
+                cbHocKi.SelectedIndex = 0;
+            }
         }
 
         private void cbHocKi_SelectedIndexChanged(object sender, EventArgs e)
